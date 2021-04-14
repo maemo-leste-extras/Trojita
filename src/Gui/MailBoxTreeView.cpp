@@ -24,6 +24,7 @@
 #include <QDragMoveEvent>
 #include <QDropEvent>
 #include <QMenu>
+#include <QScroller>
 #include <QMimeData>
 #include "Common/SettingsNames.h"
 #include "Gui/MailBoxTreeView.h"
@@ -63,6 +64,8 @@ MailBoxTreeView::MailBoxTreeView(QWidget *parent, QSettings *settings)
             emit mailboxExpansionChanged(m_desiredExpansionState.toList());
         }
     });
+    QScroller::grabGesture(this, QScroller::TouchGesture);
+    QScroller::grabGesture(this, QScroller::LeftMouseButtonGesture);
 }
 
 /** \reimp

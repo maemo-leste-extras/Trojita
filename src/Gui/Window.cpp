@@ -116,7 +116,7 @@ namespace Gui
     static const char * const netErrorUnseen = "net_error_unseen";
 
 MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(0), m_mainHSplitter(0), m_mainVSplitter(0),
-    m_mainStack(0), m_layoutMode(LAYOUT_COMPACT), m_skipSavingOfUI(true), m_delayedStateSaving(0), m_actionSortNone(0),
+    m_mainStack(0), m_layoutMode(LAYOUT_ONE_AT_TIME), m_skipSavingOfUI(true), m_delayedStateSaving(0), m_actionSortNone(0),
     m_ignoreStoredPassword(false), m_settings(settings), m_pluginManager(0), m_networkErrorMessageBox(0), m_trayIcon(0)
 {
     setAttribute(Qt::WA_AlwaysShowToolTips);
@@ -1019,7 +1019,7 @@ void MainWindow::removeSysTray()
 
 void MainWindow::slotToggleSysTray()
 {
-    bool showSystray = m_settings->value(Common::SettingsNames::guiShowSystray, QVariant(true)).toBool();
+    bool showSystray = m_settings->value(Common::SettingsNames::guiShowSystray, QVariant(false)).toBool();
     if (showSystray && !m_trayIcon && QSystemTrayIcon::isSystemTrayAvailable()) {
         createSysTray();
     } else if (!showSystray && m_trayIcon) {

@@ -82,8 +82,7 @@ GenericName[uk]=Поштовий клієнт IMAP
 GenericName[x-test]=xxIMAP E-mail Clientxx
 GenericName[zh_CN]=IMAP 电子邮件客户端
 GenericName[zh_TW]=IMAP 電子郵件用戶端程式
-TryExec=trojita
-Exec=trojita %u
+Exec=env QT_SCALE_FACTOR=1.3 trojita -platform xcb -style fusion %u
 Terminal=false
 Type=Application
 Icon=trojita
