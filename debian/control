@@ -8,7 +8,6 @@ Build-Depends: debhelper (>= 10),
                libgpg-error-dev,
                libgpgmepp-dev,
                libgpgme-dev,
-               libkf5akonadicalendar-dev,
                libmimetic-dev,
                libqt5svg5-dev,
                libqt5webkit5-dev,
@@ -23,9 +22,7 @@ Build-Depends: debhelper (>= 10),
                xvfb,
                zlib1g-dev,
                quilt
-Standards-Version: 4.0
-Vcs-Browser: https://salsa.debian.org/lxqt-team/trojita
-Vcs-Git: https://salsa.debian.org/lxqt-team/trojita.git
+Standards-Version: 3.7.2
 Homepage: http://trojita.flaska.net
 
 Package: trojita
@@ -53,6 +50,7 @@ Description: Fast Qt IMAP e-mail client
     afraid of making them work.
  .
   This package contain the binaries.
+XB-Maemo-Display-Name: Trojita
 
 Package: trojita-data
 Architecture: all
