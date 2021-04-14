@@ -1,0 +1,849 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+License: GPL-2+3+KDEeV
+
+Files: debian/*
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: CMakeLists.txt
+       cmake/*
+       po/*
+       src/Doxyfile
+       src/Gui/AboutDialog.ui
+       src/Gui/ComposeWidget.ui
+       src/Gui/CreateMailboxDialog.ui
+       src/Gui/EditFavoriteTag.ui
+       src/Gui/EditIdentity.ui
+       src/Gui/PasswordDialog.ui
+       src/Gui/ProgressPopUp.ui
+       src/Gui/SettingsCachePage.ui
+       src/Gui/SettingsFavoriteTagsPage.ui
+       src/Gui/SettingsGeneralPage.ui
+       src/Gui/SettingsImapPage.ui
+       src/Gui/SettingsOutgoingPage.ui
+       src/Gui/ShortcutHandler/*
+       src/Gui/TagAddDialog.ui
+       src/Gui/org.kde.trojita.desktop
+       src/Imap/Parser/regenerate-ragel.sh
+       src/Imap/Parser/rfc5322.abnf
+       src/Imap/Parser/rfc5322.rl
+       src/Plugins/*
+       src/QmlSupport/*
+       src/XtConnect/*
+       src/configure-plugins.cmake.in
+       src/configure.cmake.in
+       src/icons.qrc
+       src/icons/*
+       src/license.qrc
+       src/trojita-version
+       src/xtconnect-icons.qrc
+       tests/Utils/fake-dev-random.c
+       tests/imap-folder-sync/*
+       tests/ubsan.supp
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/Composer/AbstractComposer.cpp
+       src/Composer/AbstractComposer.h
+       src/Composer/ExistingMessageComposer.cpp
+       src/Composer/ExistingMessageComposer.h
+       src/Composer/MessageComposer.cpp
+       src/Composer/MessageComposer.h
+       src/Cryptography/*
+       src/Gui/AddressRowWidget.cpp
+       src/Gui/AddressRowWidget.h
+       src/Gui/CompleteMessageWidget.cpp
+       src/Gui/CompleteMessageWidget.h
+       src/Gui/FindBarMixin.cpp
+       src/Gui/FindBarMixin.h
+       src/Gui/MessageHeadersWidget.cpp
+       src/Gui/MessageHeadersWidget.h
+       src/Gui/Window.h
+       src/Plugins/SonnetSpellchecker/*
+       src/Plugins/SpellcheckerPlugin.cpp
+       src/Plugins/SpellcheckerPlugin.h
+       src/UiUtils/IconLoader.h
+       src/UiUtils/QaimDfsIterator.cpp
+       src/UiUtils/QaimDfsIterator.h
+       tests/Composer/test_Composer_Existing.cpp
+       tests/Composer/test_Composer_Existing.h
+       tests/Imap/test_Imap_Parser_write.cpp
+       tests/Imap/test_Imap_Parser_write.h
+       tests/Misc/test_QaimDfsIterator.cpp
+       tests/Misc/test_QaimDfsIterator.h
+Copyright: 2006-2017, Jan Kundrát <jkt@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Common/Application.cpp
+       src/Common/Application.h
+       src/Common/Paths.h
+       src/Composer/Mailto.cpp
+       src/Composer/Mailto.h
+       src/IPC/*
+       src/Plugins/AddressbookPlugin.cpp
+       src/Plugins/AddressbookPlugin.h
+       src/Plugins/ClearTextPassword/*
+       src/Plugins/PasswordPlugin.cpp
+       src/Plugins/PasswordPlugin.h
+       src/Plugins/PluginInterface.h
+       src/Plugins/PluginJob.cpp
+       src/Plugins/PluginJob.h
+       src/Plugins/PluginManager.cpp
+       src/Plugins/PluginManager.h
+       src/Plugins/QtKeyChain/*
+Copyright: 2013, Pali Rohár <pali.rohar@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Common/ConnectionId.cpp
+       src/Common/ConnectionId.h
+       src/Gui/ComposerAttachmentsList.cpp
+       src/Gui/ComposerAttachmentsList.h
+       src/Gui/ComposerTextEdit.cpp
+       src/Gui/ComposerTextEdit.h
+       src/Gui/Spinner.cpp
+       src/Gui/Spinner.h
+       src/Plugins/AbookAddressbook/main.cpp
+       tests/Misc/test_Formatting.cpp
+       tests/Misc/test_Formatting.h
+Copyright: 2012-2016, Thomas Lübking <thomas.luebking@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Imap/Model/FindInterestingPart.cpp
+       src/Imap/Model/FindInterestingPart.h
+       src/XtConnect/MailSynchronizer.cpp
+       src/XtConnect/MailSynchronizer.h
+       src/XtConnect/MessageDownloader.cpp
+       src/XtConnect/MessageDownloader.h
+       src/XtConnect/SqlStorage.cpp
+       src/XtConnect/SqlStorage.h
+       src/XtConnect/XtConnect.cpp
+       src/XtConnect/XtConnect.h
+       src/XtConnect/main.cpp
+Copyright: 2010, OpenMFG LLC, dba xTuple
+License: BSD-3-clause
+
+Files: src/Gui/ColoredItemDelegate.cpp
+       src/Gui/ColoredItemDelegate.h
+       src/Gui/MsgItemDelegate.cpp
+       src/Gui/MsgItemDelegate.h
+       src/Gui/TagAddDialog.cpp
+       src/Gui/TagAddDialog.h
+       src/Plugins/AkonadiAddressbook/*
+Copyright: Roland Pallai <dap78@magex.hu>
+License: GPL-2+3+KDEeV
+
+Files: src/Cryptography/MessageModel.cpp
+       src/Cryptography/MessageModel.h
+       src/Cryptography/MessagePart.cpp
+       src/Cryptography/MessagePart.h
+       src/Cryptography/MimeticUtils.cpp
+       src/Cryptography/MimeticUtils.h
+       src/Gui/MessageView.h
+       tests/Imap/test_Imap_MsgPartNetAccessManager.cpp
+       tests/Imap/test_Imap_MsgPartNetAccessManager.h
+Copyright: 2006-2016, Jan Kundrát <jkt@kde.org>
+           2014-2015, Stephan Platz <trojita@paalsteek.de>
+License: GPL-2+3+KDEeV
+
+Files: cmake/FindMimetic.cmake
+       tests/Cryptography/*
+Copyright: 2014-2015, Stephan Platz <trojita@paalsteek.de>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp
+       src/Gui/ShortcutHandler/ShortcutConfigDialog.h
+       src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp
+       src/Gui/ShortcutHandler/ShortcutConfigWidget.h
+       src/Gui/ShortcutHandler/ShortcutHandler.cpp
+       src/Gui/ShortcutHandler/ShortcutHandler.h
+Copyright: 2012-2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: debian/libtrojita-plugins-dev/usr/share/doc/libtrojita-plugins-dev/copyright
+       debian/libtrojita-plugins0/usr/share/doc/libtrojita-plugins0/copyright
+       debian/trojita-data/usr/share/doc/trojita-data/copyright
+       debian/trojita/usr/share/doc/trojita/copyright
+Copyright: 1951-3385, 623
+           1993, <324@gmail.com>
+           2000, <s.carstens@gmx.de>
+           2013, Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+           2007, Allen Winter <winter@kde.org>
+           2014, Boren Zhang <bobo
+           2013, Caspar Schutijser <caspar@schutijser.com>
+           2014, Dan Chapman <dpniel@ubuntu.com>
+           2000-2001, Dawit Alemayehu <adawit@kde.org>
+           2013, Digia Plc and/or its subsidiary(-ies)
+           2015-2016, Erik Quaeghebeur <trojita@equaeghe.nospammail.net>
+           2009-2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2015, J. C. Moyer, http://stackoverflow.com/a
+           2006-2015, Jan Kundrát <jkt@flaska.net>
+           2006-2013, Jan Kundrát <jkt@flaska>
+           2006-2017, Jan Kundrát <jkt@kde.org>
+           2006-2013, Jan Kundrát >
+           2006-2009, Kitware, Inc
+           2010, Klarälvdalens Datakonsult AB
+           2009-2011, Lionel Chauvin <megabigbug@yahoo.fr>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+           2016, Luís Pereira <luis.artur.pereira@gmail.com>
+           2012, Mildred <mildred-pub@mildred.fr>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2009-2010, Nokia Corporation and/or its subsidiary(-ies)
+           2010, OpenMFG LLC, dba xTuple
+           2001-2010, OpenMFG, LLC
+           2013-2015, Pali Rohár <pali.rohar@gmail.com>
+           2012-2013, Peter Amidon <peter@picnicpark.org>
+           2001, Rik Hemsley (rikkus) <rik@kde.org>
+           2017, Roland Pallai <dap78@magex.hu>
+           1978, Roland Pallai <dap@magex.hu>
+           See COPYING file that comes with this distribution
+           2014-2015, Stephan Platz <trojita@paalsteek.de>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2012-2018, This_file_is_part_of_KDE
+           2006-2012, Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+           2012-2016, Thomas Lübking <thomas.luebking@gmail.com>
+           2007, Tom Albers <tomalbers@kde.nl>
+           2007, Trolltech ASA
+           2007, Trolltech ASA <info@trolltech.com>
+           2013, Yasser Aziza <yasser.aziza@gmail.com>
+           a KDAB Group company <info@kdab.net>
+           author Stephen Kelly <stephen@kdab.com>
+           https://commits.kde.org/trojita?path=LICENSE
+           2008-2012, rea Diamantini <adjam7@gmail.com>
+License: GPL-2+ or LGPL-2+
+
+Files: src/Gui/TagListWidget.cpp
+       src/Gui/TagListWidget.h
+       src/Gui/TagWidget.cpp
+       src/Gui/TagWidget.h
+Copyright: 2015, Erik Quaeghebeur <trojita@equaeghe.nospammail.net>
+           2006-2015, Jan Kundrát <jkt@kde.org>
+           2012, Mildred <mildred-pub@mildred.fr>
+License: GPL-2+3+KDEeV
+
+Files: src/Common/Paths.cpp
+       src/Gui/Window.cpp
+       src/Gui/main.cpp
+       src/MSA/SMTP.cpp
+Copyright: 2006-2015, Jan Kundrát <jkt@flaska.net>
+           2013-2015, Pali Rohár <pali.rohar@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/MessageSourceWidget.cpp
+       src/Gui/MessageSourceWidget.h
+       src/Imap/Model/FullMessageCombiner.cpp
+       src/Imap/Model/FullMessageCombiner.h
+Copyright: 2013, Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+           2006-2016, Jan Kundrát <jkt@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/FlowLayout.cpp
+       src/Gui/FlowLayout.h
+       src/Streams/3rdparty/*
+Copyright: 2010, Nokia Corporation and/or its subsidiary(-ies)
+License: GPL-3 or LGPL-2.1
+
+Files: src/QmlSupport/QNAMWebView/plugin.cpp
+       src/QmlSupport/QNAMWebView/plugin.h
+       src/QmlSupport/QNAMWebView/qdeclarativewebview.cpp
+       src/QmlSupport/QNAMWebView/qdeclarativewebview_p.h
+Copyright: 2009, Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2+
+
+Files: tests/Misc/test_SenderIdentitiesModel.cpp
+       tests/Misc/test_SenderIdentitiesModel.h
+       tests/Utils/ModelEvents.cpp
+       tests/Utils/ModelEvents.h
+Copyright: 2012-2013, Peter Amidon <peter@picnicpark.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Imap/Model/FavoriteTagsModel.cpp
+       src/Imap/Model/FavoriteTagsModel.h
+       tests/Misc/test_FavoriteTagsModel.cpp
+       tests/Misc/test_FavoriteTagsModel.h
+License: GPL-2+3+KDEeV
+
+Files: po/trojita_common_da.po
+       po/trojita_common_el.po
+       po/trojita_common_sv.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/Gui/PartWalker.h
+       src/Imap/Network/QQuickNetworkReplyWrapper.cpp
+       src/Imap/Network/QQuickNetworkReplyWrapper.h
+Copyright: 1993, <324@gmail.com>
+           2014, Boren Zhang <bobo
+License: GPL-2+3+KDEeV
+
+Files: debian/tmp/usr/bin/trojita
+       debian/trojita/usr/bin/trojita
+Copyright: 1993, <324@gmail.com>
+           2013, Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+           2012-2013, Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+           2012-2016, Albert Astals Cid <aacid@kde.org>
+           2014, Alexander Zabolotskikh <snprintfv@gmail.com>
+           2012, Allen Winter <allen.winter@kdab.com>
+           2016, Amaury Pouly <amaury.pouly@gmail.com>
+           2013, Benjamin Kaiser <benjaminjkaiser@gmail.com>
+           2010, Benson Tsai <btsai@vrwarp.com>
+           2014, Boren Zhang <bobo
+           2014, Bruno Meneguele <bmeneguele@gmail.com>
+           2013-2018, Caspar Schutijser <caspar@schutijser.com>
+           2012, Chase Douglas <chase.douglas@canonical.com>
+           2012, Chusslove Illich (Часлав Илић) <caslav.ilic@gmx.net>
+           2014, Dan Chapman <dpniel@ubuntu.com>
+           2017, Daniel Aleksandersen <code@daniel.priv.no>
+           2014, Danny Rimmer <utf8snowman@gmail.com>
+           2000-2001, Dawit Alemayehu <adawit@kde.org>
+           2014, Dimitrios Glentadakis <dglent@free.fr>
+           2016, Eloy Cuadra <ecuadra@eloihr.net>
+           2017, Elvis Angelaccio <elvis.angelaccio@kde.org>
+           2015-2018, Erik Quaeghebeur <kde@equaeghe.nospammail.net>
+           2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2015-2016, Heiko Becker <heirecka@exherbo.org>
+           2014, Illya Kovalevskyy <illya.kovalevskyy@gmail.com>
+           2013-2014, Jai Luthra <me@jailuthra.in>
+           2013, James Turner <james@calminferno.net>
+           2006-2018, Jan Kundrát <jkt@kde.org>
+           2009-2011, Jiří Helebrant <helb@helb.cz>
+           2011, Jun Yang <slickqt@gmail.com>
+           2009, Justin J <justin@jjamfd.com>
+           2014-2015, Karan Luthra <karanluthra06@gmail.com>
+           2016, Ken Moore <moorekou@gmail.com>
+           2010, Klarälvdalens Datakonsult AB, Stephen Kelly <stephen@kdab.com>
+           2014-2015, Lasse Liehu <lasse.liehu@gmail.com>
+           2014-2016, Luigi Toscano <luigi.toscano@tiscali.it>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+           2016, Luís Pereira <luis.artur.pereira@gmail.com>
+           2011, Mariusz Fik <fisiu@opensuse.org>
+           2014-2015, Marko Käning <mk-lists@email.de>
+           2013, Mayank Jha <mjnovice@gmail.com>
+           2014, Michael Hall <mhall119@ubuntu.com>
+           2016, Michael Palimaka <kensington@gentoo.org>
+           2012, Michael Sprauer <Michael@Sprauer.net>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2014, Niklas Wenzel <nikwen.developer@gmail.com>
+           2009-2012, Nokia Corporation and/or its subsidiary(-ies)
+           2010-2013, OpenMFG LLC, dba xTuple
+           2014, Pavel Sedlák <psedlak@redhat.com>
+           2013-2017, Pavol Rohár <pali.rohar@gmail.com>
+           2012-2013, Peter Amidon <peter@picnicpark.org>
+           2001, Rik Hemsley <rik@kde.org>
+           2017-2018, Roland Pallai <dap78@magex.hu>
+           2015, Safa Alfulaij <safa1996alfulaij@gmail.com>
+           2016, Sergio Martins <smartins@kde.org>
+           2012, Shanti Bouchez <shanti@sogilis.com>
+           2016, Spencer Brown <spencerbrown991@gmail.com>
+           2013, Sreepriya Chalakkal <sreepriya1111@gmail.com>
+           2013, Stefan Kögl <stefan.koegl@tu-dortmund.de>
+           2013-2018, Stephan Platz <trojita@paalsteek.de>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2000, Sven Carstens <s.carstens@gmx.de>
+           2011-2012, Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+           2012-2017, Thomas Lübking <thomas.luebking@gmail.com>
+           2014, Toby Chen <chenyanjun912@hotmail.com>
+           2011, Tomáš Kouba <tomas@jikos.cz>
+           2007, Trolltech ASA
+           2018, Vicente Bergas <vicencb@gmail.com>
+           2012, Wim Lewis <wiml@hhhh.org>
+           2009, Witold Wysota <wysota@wysota.eu.org>
+           2014, Yazeed Zoabi <yazeedz.zoabi@gmail.com>
+           2012-2017, Yuri Chornoivan <yurchor@ukr.net>
+           2015, reas Sturmlechner <andreas.sturmlechner@gmail.com>
+           2011, rew Brouwers <abrouwers@gmail.com>
+           2013, ré Marcelo Alvarenga <alvarenga@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Plugins/AbookAddressbook/AbookAddressbook.cpp
+       src/Plugins/AbookAddressbook/AbookAddressbook.h
+Copyright: 2013, Caspar Schutijser <caspar@schutijser.com>
+           2006-2014, Jan Kundrát <jkt@flaska.net>
+           2013-2014, Pali Rohár <pali.rohar@gmail.com>
+           2012, Thomas Lübking <thomas.luebking@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: po/trojita_common_fr.po
+       po/trojita_common_pl.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2006-2013, Jan Kundrát <jkt@flaska>
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/Plugins/AbookAddressbook/be-contacts.cpp
+       src/Plugins/AbookAddressbook/be-contacts.h
+Copyright: 2013, Caspar Schutijser <caspar@schutijser.com>
+           2006-2014, Jan Kundrát <jkt@flaska.net>
+           2012, Thomas Lübking <thomas.luebking@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/Util.cpp
+       src/Gui/Util.h
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2006-2011, Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/PasswordDialog.cpp
+       src/Gui/PasswordDialog.h
+Copyright: 2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2006-2016, Jan Kundrát <jkt@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/MailBoxTreeView.cpp
+       src/Gui/MailBoxTreeView.h
+Copyright: 2006-2016, Jan Kundrát <jkt@kde.org>
+           2012, Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/OneEnvelopeAddress.cpp
+       src/Gui/OneEnvelopeAddress.h
+Copyright: 2006-2015, Jan Kundrát <jkt@kde.org>
+           2013-2015, Pali Rohár <pali.rohar@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/FindBar.cpp
+       src/Gui/FindBar.h
+Copyright: 2009-2011, Lionel Chauvin <megabigbug@yahoo.fr>
+           2008-2012, rea Diamantini <adjam7@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Common/SettingsNames.cpp
+       src/Common/SettingsNames.h
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Imap/Model/MailboxFinder.cpp
+       src/Imap/Model/MailboxFinder.h
+Copyright: 2006-2016, Jan Kundrát <jkt@kde.org>
+           2010, OpenMFG LLC, dba xTuple
+License: BSD-3-clause
+
+Files: src/Imap/Parser/3rdparty/*
+Copyright: 2000-2001, Dawit Alemayehu <adawit@kde.org>
+           2001, Rik Hemsley (rikkus) <rik@kde.org>
+License: LGPL-2
+
+Files: src/Composer/SubjectMangling.cpp
+       src/Imap/Parser/LowLevelParser.cpp
+Copyright: 2018, Erik Quaeghebeur <kde@equaeghe.nospammail.net>
+           2006-2014, Jan Kundrát <jkt@flaska.net>
+License: GPL-2+3+KDEeV
+
+Files: src/Plugins/AkonadiAddressbook/AkonadiAddressbookCompletionJob.cpp
+       src/Plugins/AkonadiAddressbook/AkonadiAddressbookNamesJob.cpp
+Copyright: 2013, Pali Rohár <pali.rohar@gmail.com>
+           2017, Roland Pallai <dap78@magex.hu>
+License: GPL-2+3+KDEeV
+
+Files: src/MSA/Account.cpp
+       src/MSA/Account.h
+Copyright: 2014, Dan Chapman <dpniel@ubuntu.com>
+           2006-2016, Jan Kundrát <jkt@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: po/trojita_common_ca.po
+       po/trojita_common_ca@valencia.po
+Copyright: 2014-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: src/Imap/Model/ModelTest/*
+Copyright: 2007, Trolltech ASA
+License: GPL-2
+
+Files: src/Imap/Parser/3rdparty/rfccodecs.cpp
+       src/Imap/Parser/3rdparty/rfccodecs.h
+Copyright: 2000, <s.carstens@gmx.de>
+License: LGPL-2+
+
+Files: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp
+       src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.h
+Copyright: 2013, Yasser Aziza <yasser.aziza@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/XtConnect/xsqlquery.cpp
+       src/XtConnect/xsqlquery.h
+Copyright: 2001-2010, OpenMFG, LLC
+License: LGPL-2.1+
+
+Files: src/XtConnect/XtCache.cpp
+       src/XtConnect/XtCache.h
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+License: GPL-2
+
+Files: src/qwwsmtpclient/*
+Copyright: See COPYING file that comes with this distribution
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: tests/Misc/test_prettySize.cpp
+       tests/Misc/test_prettySize.h
+Copyright: 2016, Erik Quaeghebeur <trojita@equaeghe.nospammail.net>
+License: GPL-2+3+KDEeV
+
+Files: debian/tmp/usr/share/metainfo/*
+       debian/trojita/usr/share/metainfo/*
+License: CC0 or GPL-2+
+
+Files: LICENSE
+Copyright: 1993, <324@gmail.com>
+           2013, Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+           2012-2013, Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+           2012-2016, Albert Astals Cid <aacid@kde.org>
+           2014, Alexander Zabolotskikh <snprintfv@gmail.com>
+           2012, Allen Winter <allen.winter@kdab.com>
+           2016, Amaury Pouly <amaury.pouly@gmail.com>
+           2013, Benjamin Kaiser <benjaminjkaiser@gmail.com>
+           2010, Benson Tsai <btsai@vrwarp.com>
+           2014, Boren Zhang <bobo
+           2014, Bruno Meneguele <bmeneguele@gmail.com>
+           2013-2018, Caspar Schutijser <caspar@schutijser.com>
+           2012, Chase Douglas <chase.douglas@canonical.com>
+           2012, Chusslove Illich (Часлав Илић) <caslav.ilic@gmx.net>
+           2014, Dan Chapman <dpniel@ubuntu.com>
+           2017, Daniel Aleksandersen <code@daniel.priv.no>
+           2014, Danny Rimmer <utf8snowman@gmail.com>
+           2000-2001, Dawit Alemayehu <adawit@kde.org>
+           2014, Dimitrios Glentadakis <dglent@free.fr>
+           2016, Eloy Cuadra <ecuadra@eloihr.net>
+           2017, Elvis Angelaccio <elvis.angelaccio@kde.org>
+           2015-2018, Erik Quaeghebeur <kde@equaeghe.nospammail.net>
+           2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2015-2016, Heiko Becker <heirecka@exherbo.org>
+           2014, Illya Kovalevskyy <illya.kovalevskyy@gmail.com>
+           2013-2014, Jai Luthra <me@jailuthra.in>
+           2013, James Turner <james@calminferno.net>
+           2006-2018, Jan Kundrát <jkt@kde.org>
+           2009-2011, Jiří Helebrant <helb@helb.cz>
+           2011, Jun Yang <slickqt@gmail.com>
+           2009, Justin J <justin@jjamfd.com>
+           2014-2015, Karan Luthra <karanluthra06@gmail.com>
+           2016, Ken Moore <moorekou@gmail.com>
+           2010, Klarälvdalens Datakonsult AB, Stephen Kelly <stephen@kdab.com>
+           2014-2015, Lasse Liehu <lasse.liehu@gmail.com>
+           2014-2016, Luigi Toscano <luigi.toscano@tiscali.it>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+           2016, Luís Pereira <luis.artur.pereira@gmail.com>
+           2011, Mariusz Fik <fisiu@opensuse.org>
+           2014-2015, Marko Käning <mk-lists@email.de>
+           2013, Mayank Jha <mjnovice@gmail.com>
+           2014, Michael Hall <mhall119@ubuntu.com>
+           2016, Michael Palimaka <kensington@gentoo.org>
+           2012, Michael Sprauer <Michael@Sprauer.net>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2014, Niklas Wenzel <nikwen.developer@gmail.com>
+           2009-2012, Nokia Corporation and/or its subsidiary(-ies)
+           2010-2013, OpenMFG LLC, dba xTuple
+           2014, Pavel Sedlák <psedlak@redhat.com>
+           2013-2017, Pavol Rohár <pali.rohar@gmail.com>
+           2012-2013, Peter Amidon <peter@picnicpark.org>
+           2001, Rik Hemsley <rik@kde.org>
+           2017-2018, Roland Pallai <dap78@magex.hu>
+           2015, Safa Alfulaij <safa1996alfulaij@gmail.com>
+           2016, Sergio Martins <smartins@kde.org>
+           2012, Shanti Bouchez <shanti@sogilis.com>
+           2016, Spencer Brown <spencerbrown991@gmail.com>
+           2013, Sreepriya Chalakkal <sreepriya1111@gmail.com>
+           2013, Stefan Kögl <stefan.koegl@tu-dortmund.de>
+           2013-2018, Stephan Platz <trojita@paalsteek.de>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2000, Sven Carstens <s.carstens@gmx.de>
+           2011-2012, Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+           2012-2017, Thomas Lübking <thomas.luebking@gmail.com>
+           2014, Toby Chen <chenyanjun912@hotmail.com>
+           2011, Tomáš Kouba <tomas@jikos.cz>
+           2007, Trolltech ASA
+           2018, Vicente Bergas <vicencb@gmail.com>
+           2012, Wim Lewis <wiml@hhhh.org>
+           2009, Witold Wysota <wysota@wysota.eu.org>
+           2014, Yazeed Zoabi <yazeedz.zoabi@gmail.com>
+           2012-2017, Yuri Chornoivan <yurchor@ukr.net>
+           2015, reas Sturmlechner <andreas.sturmlechner@gmail.com>
+           2011, rew Brouwers <abrouwers@gmail.com>
+           2013, ré Marcelo Alvarenga <alvarenga@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: debian/copyright.fuck
+Copyright: 1951-3385, 623
+           1993, <324@gmail.com>
+           2000, <s.carstens@gmx.de>
+           2013, Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+           2007, Allen Winter <winter@kde.org>
+           2014, Boren Zhang <bobo
+           2013, Caspar Schutijser <caspar@schutijser.com>
+           2014, Dan Chapman <dpniel@ubuntu.com>
+           2000-2001, Dawit Alemayehu <adawit@kde.org>
+           2013, Digia Plc and/or its subsidiary(-ies)
+           2018, Erik Quaeghebeur <kde@equaeghe.nospammail.net>
+           2015-2016, Erik Quaeghebeur <trojita@equaeghe.nospammail.net>
+           2009-2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2015, J. C. Moyer, http://stackoverflow.com/a
+           2006-2015, Jan Kundrát <jkt@flaska.net>
+           2006-2013, Jan Kundrát <jkt@flaska>
+           2006-2017, Jan Kundrát <jkt@kde.org>
+           2006-2009, Kitware, Inc
+           2010, Klarälvdalens Datakonsult AB
+           2009-2011, Lionel Chauvin <megabigbug@yahoo.fr>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+           2016, Luís Pereira <luis.artur.pereira@gmail.com>
+           2012, Mildred <mildred-pub@mildred.fr>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2009-2010, Nokia Corporation and/or its subsidiary(-ies)
+           2010, OpenMFG LLC, dba xTuple
+           2001-2010, OpenMFG, LLC
+           2013-2015, Pali Rohár <pali.rohar@gmail.com>
+           2012-2013, Peter Amidon <peter@picnicpark.org>
+           2001, Rik Hemsley (rikkus) <rik@kde.org>
+           2017, Roland Pallai <dap78@magex.hu>
+           1978, Roland Pallai <dap@magex.hu>
+           See COPYING file that comes with this distribution
+           2014-2015, Stephan Platz <trojita@paalsteek.de>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2012-2018, This_file_is_part_of_KDE
+           2006-2012, Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+           2012-2016, Thomas Lübking <thomas.luebking@gmail.com>
+           2007, Tom Albers <tomalbers@kde.nl>
+           2007, Trolltech ASA
+           2007, Trolltech ASA <info@trolltech.com>
+           2013, Yasser Aziza <yasser.aziza@gmail.com>
+           a KDAB Group company <info@kdab.net>
+           author Stephen Kelly <stephen@kdab.com>
+           https://commits.kde.org/trojita?path=LICENSE
+           2008-2012, rea Diamantini <adjam7@gmail.com>
+License: GPL-2+ or LGPL-2+
+
+Files: src/Gui/SettingsDialog.cpp
+Copyright: 2006-2016, Jan Kundrát <jkt@kde.org>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2013, Pali Rohár <pali.rohar@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Imap/Model/kdeui-itemviews/*
+Copyright: 2010, Klarälvdalens Datakonsult AB
+           2009, Stephen Kelly <steveire@gmail.com>
+           a KDAB Group company <info@kdab.net>
+           author Stephen Kelly <stephen@kdab.com>
+License: LGPL-2+
+
+Files: po/trojita_common_de.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2006-2013, Jan Kundrát >
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: po/trojita_common_nl.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2006-2013, en <a href=\"http:
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: po/trojita_common_hu.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2006-2013, és <a href=\"http:
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: po/trojita_common_uk.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2012-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: po/trojita_common_et.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2006-2013, ja <a href=
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: po/trojita_common_zh_TW.po
+Copyright: 2006-2013, <a href=
+           2006-2013, Jan Kundrát <jkt@flaska.net>
+           2006-2013, 與 <a href=\"http:
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: debian/.debhelper/trojita/dbgsym-root/usr/lib/debug/.build-id/0e/*
+Copyright: HxDcÉ(é¸ìP
+           ^\U
+           tPrj
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/Gui/MessageView.cpp
+Copyright: 2006-2016, Jan Kundrát <jkt@kde.org>
+           2014, Luke Dashjr <luke+trojita@dashjr.org>
+           2014-2015, Stephan Platz <trojita@paalsteek.de>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/PartWalker.cpp
+Copyright: 1993, <324@gmail.com>
+           2014, Boren Zhang <bobo
+           2006-2014, Jan Kundrát <jkt@flaska.net>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/ComposeWidget.cpp
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2013-2014, Pali Rohár <pali.rohar@gmail.com>
+           2012, Peter Amidon <peter@picnicpark.org>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/LineEdit.cpp
+Copyright: 2009-2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2006-2015, Jan Kundrát <jkt@kde.org>
+           2013, Thomas Lübking <thomas.luebking@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/UiUtils/PlainTextFormatter.cpp
+Copyright: 2018, Erik Quaeghebeur <kde@equaeghe.nospammail.net>
+           2006-2014, Jan Kundrát <jkt@flaska.net>
+           2012, Thomas Lübking <thomas.luebking@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Imap/Model/kdeui-itemviews/kbihash_p.h
+Copyright: 2010, Klarälvdalens Datakonsult AB
+           a KDAB Group company <info@kdab.net>
+           author Stephen Kelly <stephen@kdab.com>
+License: LGPL-2+
+
+Files: src/Composer/SenderIdentitiesModel.cpp
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+           2012, Peter Amidon <peter@picnicpark.org>
+License: GPL-2+3+KDEeV
+
+Files: cmake/TrojitaOption.cmake
+Copyright: 2006-2009, Kitware, Inc
+           2013, Pali Rohár <pali.rohar@gmail.com>
+License: BSD
+
+Files: src/Gui/SettingsDialog.h
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/TaskProgressIndicator.cpp
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2014, Thomas Lübking <thomas.luebking@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Gui/LineEdit.h
+Copyright: 2009-2013, Glad Deschrijver <glad.deschrijver@gmail.com>
+           2007, Trolltech ASA <info@trolltech.com>
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/UiUtils/IconLoader.cpp
+Copyright: 2006-2015, Jan Kundrát <jkt@kde.org>
+           2016, Luís Pereira <luis.artur.pereira@gmail.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Common/StashingReverseIterator.h
+Copyright: 1951-3385, 623
+           2015, J. C. Moyer, http://stackoverflow.com/a
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/Imap/Encoders.cpp
+Copyright: 2013, Digia Plc and/or its subsidiary(-ies)
+           2006-2014, Jan Kundrát <jkt@flaska.net>
+License: GPL-3 or LGPL-2.1
+
+Files: src/Composer/Submission.cpp
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2012, Peter Amidon <peter@picnicpark.org>
+License: GPL-2+3+KDEeV
+
+Files: tests/Imap/data.h
+Copyright: 2006-2014, Jan Kundrát <jkt@flaska.net>
+           2014, Stephan Platz <trojita@paalsteek.de>
+License: GPL-2+3+KDEeV
+
+Files: tests/Misc/test_rfccodecs.cpp
+Copyright: 2007, Allen Winter <winter@kde.org>
+           2007, Tom Albers <tomalbers@kde.nl>
+License: LGPL-2
+
+Files: po/trojita_common_pt_BR.po
+Copyright: 2012-2016, This_file_is_part_of_KDE
+License: GPL-2+3+KDEeV
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: src/Common/SettingsCategoryGuard.h
+Copyright: 2013, Caspar Schutijser <caspar@schutijser.com>
+License: GPL-2+3+KDEeV
+
+Files: src/Imap/Model/kdeui-itemviews/kdescendantsproxymodel.h
+Copyright: 2009, Stephen Kelly <steveire@gmail.com>
+License: LGPL-2+
+
+Files: src/trojita_win32.rc
+Copyright: https://commits.kde.org/trojita?path=LICENSE
+License: GPL-2
+
+Files: tests/Misc/test_rfccodecs.h
+Copyright: 2007, Allen Winter <winter@kde.org>
+License: LGPL-2+
+
+Files: src/Gui/org.kde.trojita.appdata.xml
+License: CC0 or GPL-2+
+
+License: BSD
+Comment: Add the corresponding license text here
+
+License: BSD-3-clause
+Comment: Add the corresponding license text here
+
+License: CC0
+Comment: Add the corresponding license text here
+
+License: GPL-2
+Comment: Add the corresponding license text here
+
+License: GPL-2+
+Comment: Add the corresponding license text here
+
+License: GPL-2+3+KDEeV
+Comment: Add the corresponding license text here
+
+License: GPL-3
+Comment: Add the corresponding license text here
+
+License: LGPL-2
+Comment: Add the corresponding license text here
+
+License: LGPL-2+
+Comment: Add the corresponding license text here
+
+License: LGPL-2.1
+Comment: Add the corresponding license text here
+
+License: LGPL-2.1+
+Comment: Add the corresponding license text here
+
+License: LGPL-2.1+3+KDEeV
+Comment: Add the corresponding license text here
+

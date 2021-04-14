@@ -1,0 +1,438 @@
+trojita (0.7-363-59fc250d41-1) experimental-snapshots; urgency=medium
+                 
+  Some maemo leste hacks.
+
+ -- uvos <devnull@uvos.xyz>  Thu, 27 Sep 2018 17:25:59 +0200
+
+trojita (0.7-363-gfeb264cd-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-363-gfeb264cd
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 27 Sep 2018 17:25:59 +0200
+
+trojita (0.7-361-gfee56b6f-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-361-gfee56b6f
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 20 Jul 2018 23:44:26 +0200
+
+trojita (0.7-357-g272c3c04-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-357-g272c3c04
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 07 Jul 2018 23:04:00 +0200
+
+trojita (0.7-341-g64b489aa-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-341-g64b489aa
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 14 Apr 2018 01:43:58 +0200
+
+trojita (0.7-337-g8dc87a95-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-337-g8dc87a95
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 16 Feb 2018 21:21:03 +0100
+
+trojita (0.7-321-gbea4a1d5-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-321-gbea4a1d5
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 07 Jan 2018 14:12:14 +0100
+
+trojita (0.7-301-g9555fee5-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-301-g9555fee5
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 20 Nov 2017 01:47:50 +0100
+
+trojita (0.7-278-ge5ac7890-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-278-ge5ac7890
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 20 Sep 2017 23:52:38 +0200
+
+trojita (0.7-273-g55666e70-3) experimental-snapshots; urgency=medium
+
+  * Fixed VCS-Fields regarding experimental-snapshots
+  * Bumped Standards to 4.1.0 - some changes needed
+  * Run cme over debian foo
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 15 Sep 2017 23:29:45 +0200
+
+trojita (0.7-273-g55666e70-2) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-273-g55666e70
+  * removed get-snapshot and get-source
+  * added repository.spec
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 15 Sep 2017 23:06:09 +0200
+
+trojita (0.7-273-g55666e70-1) experimental-snapshots; urgency=medium
+
+  * New snapshot: v0.7-273-g55666e70
+  * Bump standards to 4.1.0 - no changes needed
+  * Switch to experimental-snapshots
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Sep 2017 22:39:40 +0200
+
+trojita (0.7-256-g09ea0087-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-256-g09ea0087
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 08 Jul 2017 17:47:06 +0200
+
+trojita (0.7-254-g58690b61-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-254-g58690b61
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 14 Jun 2017 19:04:05 +0200
+
+trojita (0.7-246-ga0dcf1f4-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-246-ga0dcf1f4
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 03 Jun 2017 12:05:09 +0200
+
+trojita (0.7-245-g16d5debe-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-245-g16d5debe
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 15 May 2017 23:04:42 +0200
+
+trojita (0.7-241-g83866ff6-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-241-g83866ff6
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 22 Apr 2017 00:37:52 +0200
+
+trojita (0.7-210-g94092cbf-3) lxqt-snapshots; urgency=medium
+
+  * Added build dependencies:
+    - libgpgme11-dev
+    - libssl-dev
+    - libgpg-error-dev
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 19 Apr 2017 18:47:26 +0200
+
+trojita (0.7-210-g94092cbf-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-210-g94092cbf
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 19 Apr 2017 18:20:19 +0200
+
+trojita (0.7-208-g548cc614-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-208-g548cc614
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 17 Apr 2017 15:23:11 +0200
+
+trojita (0.7-205-g34940466-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-205-g34940466
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 20 Mar 2017 19:18:36 +0100
+
+trojita (0.7-140-g2ccb4b78-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-140-g2ccb4b78
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 12 Jan 2017 00:45:00 +0100
+
+trojita (0.7-125-g22adf516-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-125-g22adf516
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 01 Jan 2017 15:37:38 +0100
+
+trojita (0.7-110-g25cb5ac-3) lxqt-snapshots; urgency=medium
+
+  * remove the libgp* dependencies - it was a hickup with kgpgme
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 01 Dec 2016 21:39:55 +0100
+
+trojita (0.7-110-g25cb5ac-2) lxqt-snapshots; urgency=medium
+
+  * Added build dependency libgpgme-dev
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 29 Nov 2016 01:39:57 +0100
+
+trojita (0.7-110-g25cb5ac-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-110-g25cb5ac
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 29 Nov 2016 01:24:00 +0100
+
+trojita (0.7-106-g60282dc-3) lxqt-snapshots; urgency=medium
+
+  * Pick up new dependencies
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 15 Nov 2016 21:02:54 +0100
+
+trojita (0.7-106-g60282dc-2) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-106-g60282dc
+  * Clean up trojita-data.install
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 29 Oct 2016 19:53:10 +0200
+
+trojita (0.7-106-g60282dc-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-106-g60282dc
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 29 Oct 2016 18:49:27 +0200
+
+trojita (0.7-95-g32c9183-2) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-95-g32c9183
+  * Install meta-info in trojita
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 16 Oct 2016 19:30:55 +0200
+
+trojita (0.7-87-g85d739c) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-87-g85d739c
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 07 Oct 2016 19:37:07 +0200
+
+trojita (0.7-83-gbab4e46-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-83-gbab4e46
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Oct 2016 23:38:57 +0200
+
+trojita (0.7-74-gbf55689-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-74-gbf55689
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Sep 2016 20:19:14 +0200
+
+trojita (0.7-69-g8cf471e-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-69-g8cf471e
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Sep 2016 18:40:55 +0200
+
+trojita (0.7-68-ga4533d3-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-68-ga4533d3
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 14 Sep 2016 20:21:30 +0200
+
+trojita (0.7-43-gd8549e3-2) lxqt-snapshots; urgency=medium
+
+  * symbols fixed
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 02 Sep 2016 22:49:25 +0200
+
+trojita (0.7-43-gd8549e3-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-43-gd8549e3
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 02 Sep 2016 22:40:14 +0200
+
+trojita (0.7-37-g621ee71-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-37-g621ee71
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 17 Aug 2016 19:15:59 +0200
+
+trojita (0.7-33-g3661e99-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-33-g3661e99
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 31 Jul 2016 12:00:37 +0200
+
+trojita (0.7-29-g14e424a-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-29-g14e424a
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Jul 2016 16:09:52 +0200
+
+trojita (0.7-25-gcefa271-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-25-gcefa271
+  * Renamed debian/get-orig-source to debian/get-source
+  * Fixed VCS fields, use plain /git/
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Jul 2016 19:57:55 +0200
+
+trojita (0.7-22-g7879f8b-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-22-g7879f8b
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 10 Jul 2016 13:08:39 +0200
+
+trojita (0.7-21-gff4b89b-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-21-gff4b89b
+  * Let cme update the copyrights - needs review
+    (to be true, this could be called desaster and we should work
+     on a bug report)
+  * Let cme fix debian/control - good one!
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 01 Jul 2016 21:01:02 +0200
+
+trojita (0.7-11-gdf2ecc0-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.7-11-gdf2ecc0
+  * Fixed typo in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 21 Jun 2016 23:44:30 +0200
+
+trojita (0.7-3-g7ff71e5-2) lxqt-snapshots; urgency=medium
+
+  * Added build dependency libqt5svg5-dev
+  * Sorted build dependencies
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 17 Jun 2016 00:56:26 +0200
+
+trojita (0.7-3-g7ff71e5-1) lxqt-snapshots; urgency=medium
+
+  * New upstream version v0.7
+  * New snapshot: v0.7-3-g7ff71e5
+  * Improved debian/get-snapshot
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 17 Jun 2016 00:50:08 +0200
+
+trojita (0.6-1~232-g34725dd-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-232-g34725dd
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 06 Jun 2016 17:21:24 +0200
+
+trojita (0.6-1~226-g38399ac-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-226-g38399ac
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 04 Jun 2016 00:04:51 +0200
+
+trojita (0.6-1~218-g27bae66-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-218-g27bae66
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 03 Jun 2016 19:39:08 +0200
+
+trojita (0.6-1~217-g71ce76a-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-217-g71ce76a
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 02 Jun 2016 18:47:59 +0200
+
+trojita (0.6-1~216-g795fa33-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-216-g795fa33
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 May 2016 17:05:31 +0200
+
+trojita (0.6-1~215-g6acbd24-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-215-g6acbd24
+  * Fixed some debian $foo like descriptions, install, dependencies
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 May 2016 00:59:15 +0200
+
+trojita (0.6-1~210-g181aa84-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-210-g181aa84
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 May 2016 16:21:30 +0200
+
+trojita (0.6-1~187-g701076a-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-187-g701076a
+  * Bump version to 0.6
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 01 May 2016 17:02:27 +0200
+
+trojita (0.6~184-ge9d4eac-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-184-ge9d4eac
+  * Patch CMakeLists.txt
+  * Renamed soname.patch to 10-cmakelists.txt.patch
+  * Bump standards to 3.9.8
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Apr 2016 00:14:30 +0200
+
+trojita (0.6~180-gefd4e8c-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-180-gefd4e8c
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 16 Apr 2016 18:38:30 +0200
+
+trojita (0.6~150-g16027d1-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-150-g16027d1
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 02 Apr 2016 01:10:56 +0200
+
+trojita (0.6~147-gc5373ed-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-147-gc5373ed
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Mar 2016 16:01:01 +0200
+
+trojita (0.6~110-gebb1651-2) lxqt-snapshots; urgency=medium
+
+  * Added libkf5gpgmepp-dev as build dependency
+  * Added libmimetic-dev as build dependency
+  * Activate options in rules
+  * Added missed symbols
+  * Secured VCS-Links
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 16 Mar 2016 19:43:05 +0100
+
+trojita (0.6~110-gebb1651-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-110-gebb1651
+  * Renamed debian/get-new-snapshot to debian/get-snapshot
+  * Added hardening=+all
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 16 Mar 2016 16:22:10 +0100
+
+trojita (0.6~70-g659f536-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-70-g659f536
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 08 Mar 2016 01:32:08 +0100
+
+trojita (0.6~69-gf560b26-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-69-gf560b26
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 06 Mar 2016 22:01:18 +0100
+
+trojita (0.6~55-gca5eeb6-1) lxqt-snapshots; urgency=medium
+
+  * New snapshot: v0.6-55-gca5eeb6
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 05 Mar 2016 14:28:55 +0100
+
+trojita (0.5+20160112-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Cherry-picking upstream version 0.5+20160112-1.
+  * Added watch file
+  * Dropped not needed qtbase5-dev dependency, qt5tools is sufficient
+  * Added build dependency ragel
+  * Format descriptions to max 80 char
+  * Added myself to debian copyright
+  * Added myself as uploader
+  * Recommend ofono
+  * Removed not needed explicit libqt5keychain0 dependency
+  * Removed boiler plates from debian/$foo
+  * Added symbols, postinst
+  * Added missed NOKIA and Digia Licenses
+  * Created debian/get-orig-source - last ancient release don't play
+    nice with Qt 5.5
+  * Fix description synopsis
+  * Patch version and soversion
+  * Add plugin package
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Major copyrights overhaul
+
+  [ Jörn Schönyan ]
+  * initial packaging (Closes: #795701)
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 20 Jan 2016 02:42:04 +0100

@@ -1,0 +1,11 @@
+trojita for Debian
+------------------
+
+Get current sources with debian/get-orig-source
+* all files matching trojita_${VER}* in ../trojita will be deleted
+  by get-orig-source
+* all dirs matching trojita-${VER} in ../trojita will be deleted
+  by get-orig-source
+* result should be a clean orig.tar.xz
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 18 Jan 2016 20:10:26 +0100

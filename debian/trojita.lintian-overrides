@@ -1,0 +1,5 @@
+# we will provide manpages if upstream think they are needed
+# writing some stubs don't make any sense
+trojita binary: binary-without-manpage usr/bin/be.contacts
+trojita binary: binary-without-manpage usr/bin/trojita
+

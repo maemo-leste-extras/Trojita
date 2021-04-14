@@ -1,0 +1,11 @@
+trojita for Debian
+------------------
+ 
+Eventually helpful:
+symbols:
+        find . -name symbols | xargs sed 's/ \(_.*\) \(.*\)/ (c++)"\1" \2/' | c++filt | uniq > debian/mangled
+
+evil: https://nthykier.wordpress.com/2012/02/23/some-sponsors-are-evil-and-pedantic/
+        alias evil=' lintian -EvIL +pedantic *changes'
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 07 Mar 2015 00:10:26 +0100

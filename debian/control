@@ -1,0 +1,77 @@
+Source: trojita
+Maintainer: uvos <devnull@uvos.xyz>
+Section: mail
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               cmake,
+               extra-cmake-modules,
+               libgpg-error-dev,
+               libgpgmepp-dev,
+               libgpgme-dev,
+               libkf5akonadicalendar-dev,
+               libmimetic-dev,
+               libqt5svg5-dev,
+               libqt5webkit5-dev,
+               libkf5sonnet-dev,
+               libssl-dev,
+               pkg-config,
+               qt5keychain-dev,
+               qttools5-dev,
+               qttools5-dev-tools,
+               ragel,
+               xauth,
+               xvfb,
+               zlib1g-dev,
+               quilt
+Standards-Version: 4.0
+Vcs-Browser: https://salsa.debian.org/lxqt-team/trojita
+Vcs-Git: https://salsa.debian.org/lxqt-team/trojita.git
+Homepage: http://trojita.flaska.net
+
+Package: trojita
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libqt5sql5-sqlite,
+         trojita-data (= ${source:Version})
+Recommends: ofono
+Description: Fast Qt IMAP e-mail client
+ Trojita is a Qt IMAP e-mail client which:
+  * Enables you to access your mail anytime, anywhere.
+  * Does not slow you down. If one can improve the productivity of an e-mail
+    user, one better do.
+  * Respects open standards and facilitates modern technologies. Value the
+    vendor-neutrality that IMAP provides and are committed to be as
+    interoperable as possible.
+  * Is efficient — be it at conserving the network bandwidth, keeping memory
+    use at a reasonable level or not hogging the system's CPU.
+  * Can be used on many platforms. One UI is not enough for everyone, but the
+    IMAP core works fine on anything from desktop computers to cell phones and
+    big ERP systems.
+  * Plays well with the rest of the ecosystem. don't like reinventing
+    wheels, but when the existing wheels quite don't fit the tracks, are not
+    afraid of making them work.
+ .
+  This package contain the binaries.
+
+Package: trojita-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: Fast Qt IMAP e-mail client (data files)
+ Trojita is a Qt IMAP e-mail client which:
+  * Enables you to access your mail anytime, anywhere.
+  * Does not slow you down. If one can improve the productivity of an e-mail
+    user, one better do.
+  * Respects open standards and facilitates modern technologies. Value the
+    vendor-neutrality that IMAP provides and are committed to be as
+    interoperable as possible.
+  * Is efficient — be it at conserving the network bandwidth, keeping memory
+    use at a reasonable level or not hogging the system's CPU.
+  * Can be used on many platforms. One UI is not enough for everyone, but the
+    IMAP core works fine on anything from desktop computers to cell phones and
+    big ERP systems.
+  * Plays well with the rest of the ecosystem. don't like reinventing
+    wheels, but when the existing wheels quite don't fit the tracks, are not
+    afraid of making them work.
+ .
+ This packagae contain the data files.

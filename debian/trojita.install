@@ -1,0 +1,6 @@
+usr/bin/
+usr/share/applications/
+usr/share/metainfo/org.kde.trojita.appdata.xml
+
+usr/lib/*/trojita
+
