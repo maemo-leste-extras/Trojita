@@ -1,6 +1,6 @@
 Source: trojita
 Maintainer: uvos <devnull@uvos.xyz>
-Section: mail
+Section: user/office
 Priority: optional
 Build-Depends: debhelper (>= 10),
                cmake,
