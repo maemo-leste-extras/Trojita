@@ -25,6 +25,7 @@
 #include <QApplication>
 #include <QDesktopWidget>
 #include <QDrag>
+#include <QScroller>
 #include <QFontMetrics>
 #include <QHeaderView>
 #include <QKeyEvent>
@@ -66,6 +67,8 @@ MsgListView::MsgListView(QWidget *parent, Imap::Mailbox::FavoriteTagsModel *m_fa
     m_naviActivationTimer = new QTimer(this);
     m_naviActivationTimer->setSingleShot(true);
     connect(m_naviActivationTimer, &QTimer::timeout, this, &MsgListView::slotCurrentActivated);
+    QScroller::grabGesture(this, QScroller::TouchGesture);
+    QScroller::grabGesture(this, QScroller::LeftMouseButtonGesture);
 }
 
 // left might collapse a thread, question is whether ending there (on closing the thread) should be

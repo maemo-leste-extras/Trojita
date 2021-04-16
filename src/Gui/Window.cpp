@@ -198,10 +198,10 @@ MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(0), m_m
     if (m_actionLayoutWide->isEnabled() &&
             m_settings->value(Common::SettingsNames::guiMainWindowLayout) == Common::SettingsNames::guiMainWindowLayoutWide) {
         m_actionLayoutWide->trigger();
-    } else if (m_settings->value(Common::SettingsNames::guiMainWindowLayout) == Common::SettingsNames::guiMainWindowLayoutOneAtTime) {
-        m_actionLayoutOneAtTime->trigger();
-    } else {
+    } else if (m_settings->value(Common::SettingsNames::guiMainWindowLayout) == Common::SettingsNames::guiMainWindowLayoutCompact) {
         m_actionLayoutCompact->trigger();
+    } else {
+        m_actionLayoutOneAtTime->trigger();
     }
 
     connect(qApp, &QGuiApplication::applicationStateChanged, this,
@@ -777,7 +777,7 @@ void MainWindow::createMenus()
     connect(netExpensive, &QAction::toggled, this, &MainWindow::updateNetworkIndication);
     connect(netOnline, &QAction::toggled, this, &MainWindow::updateNetworkIndication);
 
-    addToolBar(Qt::LeftToolBarArea, m_mainToolbar);
+    addToolBar(Qt::TopToolBarArea, m_mainToolbar);
     m_mainToolbar->actions().last()->setVisible(true); // initial state to complement the default of the QMenuBar's visibility
     menuBar()->hide();
 
