@@ -8,8 +8,7 @@ export LC_ALL=C.UTF-8
 
 
 %:
-	dh ${@} --buildsystem cmake \
-		--with quilt
+	dh ${@} --buildsystem cmake
 
 
 override_dh_missing:
